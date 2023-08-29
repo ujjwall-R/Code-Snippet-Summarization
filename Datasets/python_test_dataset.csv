@@ -1,0 +1,100 @@
+code,docstring
+"sum(d * 10 ** i for i, d in enumerate(x[::-1]))",How to convert a list of multiple integers into a single integer?
+"r = int(''.join(map(str, x)))",How to convert a list of multiple integers into a single integer?
+"datetime.strptime('2010-11-13 10:33:54.227806', '%Y-%m-%d %H:%M:%S.%f')",how to convert a datetime string back to datetime object?
+"[(i, sum(j) / len(j)) for i, j in list(d.items())]",Averaging the values in a dictionary based on the key
+"zip([1, 2], [3, 4])",zip lists in python
+['hello{0}'.format(i) for i in a],Prepend the same string to all items in a list
+"re.sub('(?<!\\S)((\\S+)(?:\\s+\\2))(?:\\s+\\2)+(?!\\S)', '\\1', s)",regex for repeating words in a string in Python
+"df.div(df.sum(axis=1), axis=0)",Normalizing a pandas DataFrame by row
+"map(lambda t: (t[1], t[0]), mylist)",swap values in a tuple/list inside a list in python?
+"[(t[1], t[0]) for t in mylist]",swap values in a tuple/list inside a list in python?
+"driver.find_element_by_xpath(""//p[@id, 'one']/following-sibling::p"")",Find next sibling element in Python Selenium?
+"re.findall('\\[[^\\]]*\\]|\\([^\\)]*\\)|""[^""]*""|\\S+', strs)",Python splitting string by parentheses
+"print(list(itertools.combinations({1, 2, 3, 4}, 3)))",What's the most memory efficient way to generate the combinations of a set in python?
+"df[['hour', 'weekday', 'weeknum']] = df.apply(lambdafunc, axis=1)",Add Multiple Columns to Pandas Dataframe from Function
+"soup.find_all('a', string='Elsie')",BeautifulSoup - search by text inside a tag
+"my_datetime.strftime('%B %d, %Y')","How do I turn a python datetime into a string, with readable format date?"
+int(''.join(c for c in s if c.isdigit())),Parse string to int when string contains a number + extra characters
+dic['Test'].update({'class': {'section': 5}}),adding new key inside a new key and assigning value in python dictionary
+"dict(map(int, x.split(':')) for x in s.split(','))",Transforming the string representation of a dictionary into a real dictionary
+"driver.find_element_by_xpath(""//div[@id='a']//a[@class='click']"")",How to select element with Selenium Python xpath
+"np.where((vals == (0, 1)).all(axis=1))",Find matching rows in 2 dimensional numpy array
+SomeModel.objects.filter(id=id).delete(),How to delete a record in Django models?
+"dict([['two', 2], ['one', 1]])",python convert list to dictionary
+"dict(zip(l[::2], l[1::2]))",python convert list to dictionary
+GRAVITY = 9.8,how to set global const variables in python
+"re.findall('(([0-9]+)([A-Z]))', '20M10000N80M')","How to use regular expression to separate numbers and characters in strings like ""30M1000N20M"""
+"re.findall('([0-9]+|[A-Z])', '20M10000N80M')","How to use regular expression to separate numbers and characters in strings like ""30M1000N20M"""
+"re.findall('([0-9]+)([A-Z])', '20M10000N80M')","How to use regular expression to separate numbers and characters in strings like ""30M1000N20M"""
+"re.compile('\\w+').findall('Hello world, my name is...James the 2nd!')","Extracting words from a string, removing punctuation and returning a list with separated words in Python"
+"datetime.datetime.strptime('03:55', '%H:%M').time()",Convert string into datetime.time object
+"requests.get('https://www.reporo.com/', verify=False)",Python Requests getting SSLerror
+a[a != 0],removing data from a numpy.array
+"new_dict = {k: v for k, v in zip(keys, values)}",Map two lists into a dictionary in Python
+"dict((k, v) for k, v in zip(keys, values))",Map two lists into a dictionary in Python
+"dict([(k, v) for k, v in zip(keys, values)])",Map two lists into a dictionary in Python
+"m = re.search('\\[(\\w+)\\]', s)",Get the string within brackets in Python
+"s.setsockopt(SOL_SOCKET, SO_REUSEADDR, 1)","Python server ""Only one usage of each socket address is normally permitted"""
+"list3 = [(a + b) for a, b in zip(list1, list2)]",How do i add two lists' elements into one list?
+[ord(c) for c in s.decode('hex')],Python - Converting Hex to INT/CHAR
+"print(sorted(student_tuples, key=lambda t: (-t[2], t[0])))",How to sort in decreasing value first then increasing in second value
+"[y for x in range(3) for y in [x, x]]",Repeating elements in list comprehension
+txt = open('file.txt').read(),"Doc, rtf and txt reader in python"
+myList[:] = [(x / myInt) for x in myList],How do you divide each element in a list by an int?
+"""""""Name: {0[person.name]}"""""".format({'person.name': 'Joe'})",python: dots in the name of variable in a format string
+"df.replace(' ', '_', regex=True)",How to replace the white space in a string in a pandas dataframe?
+"datetime.datetime.combine(my_date, datetime.time.min)",Python: most efficient way to convert date to datetime
+tst2 = str(tst),Tuple to string
+time.ctime(os.path.getmtime(file)),get file creation & modification date/times in
+time.ctime(os.path.getctime(file)),get file creation & modification date/times in
+t = os.path.getmtime(filename),get file creation & modification date/times in
+os.path.getmtime(path),get file creation & modification date/times in
+print(('last modified: %s' % time.ctime(os.path.getmtime(file)))),get file creation & modification date/times in
+print(('created: %s' % time.ctime(os.path.getctime(file)))),get file creation & modification date/times in
+return os.path.getctime(path_to_file),get file creation & modification date/times in
+os.system('TASKKILL /F /IM firefox.exe'),How to Close a program using python?
+"return (x.group(0) for x in re.finditer(""[A-Za-z']+"", string))",Is there a generator version of `string.split()` in Python?
+""""""", """""".join(['%.2f'] * len(x))",Using Python String Formatting with Lists
+"print(re.match('(\\d+(\\.\\d+)?)', '3434.35353').group(1))",How to use regex with optional characters in python?
+"df['name'].str.replace('\\(.*\\)', '')",How to remove parentheses and all data within using Pandas/Python?
+result = [x for x in list_a if x[0] in list_b],Python: filter list of list with another list
+"print([''.join(a) for a in combinations(['hel', 'lo', 'bye'], 2)])",Generate all possible strings from a list of token
+[x for x in li if 'ar' in x[2]],python how to search an item in a nested list
+unsorted_list.sort(key=lambda x: x[3]),Python - How to sort a list of lists by the fourth element in each list?
+logging.info('test'),Python logging typeerror
+"fig.add_subplot(1, 1, 1)",How to make several plots on a single page using matplotlib?
+"sorted(list(x.items()), key=operator.itemgetter(1))",Sort a Python dictionary by value
+"sorted(dict1, key=dict1.get)",Sort a Python dictionary by value
+"sorted(d, key=d.get, reverse=True)",Sort a Python dictionary by value
+"sorted(list(d.items()), key=(lambda x: x[1]))",Sort a Python dictionary by value
+"np.einsum('ijk,ikl->ijl', A, B)",Numpy elementwise product of 3d array
+print('I have: {0.price}'.format(card)),print variable and a string in python
+f.write('# Data for Class A\n'),How can I add a comment to a YAML file in Python
+a = a[-1:] + a[:-1],How do I move the last item in a list to the front in python?
+datetimevariable.strftime('%Y-%m-%d'),python - convert datetime to varchar/string
+"mixed.replace('\r\n', '\n').replace('\r', '\n')",What's the most pythonic way of normalizing lineends in a string?
+os.path.expanduser('~user'),How to find the real user home directory using python?
+T = [L[i] for i in Idx],"In Python, how do I index a list with another list?"
+words = open('myfile').read().split(),Iterate through words of a file in Python
+[[sum([x[1] for x in i])] for i in data],Summing 2nd list items in a list of lists of lists
+[sum([x[1] for x in i]) for i in data],Summing 2nd list items in a list of lists of lists
+Article.objects.annotate(like_count=Count('likes')).order_by('-like_count'),Django order by highest number of likes
+today = datetime.datetime.utcnow().date(),How to convert datetime.date.today() to UTC time?
+"[(a * b) for a, b in zip(lista, listb)]",How to perform element-wise multiplication of two lists in Python?
+"re.findall('(?::|;|=)(?:-)?(?:\\)|\\(|D|P)', s)",Capturing emoticons using regular expression in python
+"re.match('[:;][)(](?![)(])', str)",Capturing emoticons using regular expression in python
+json_string = json.dumps([ob.__dict__ for ob in list_name]),List of objects to JSON with Python
+listofzeros = [0] * n,List of zeros in python
+"stringnamehere.decode('utf-8', 'ignore')",python: how to convert a string to utf-8
+"re.findall('((?:A|B|C)D)', 'BDE')",Python regex - Ignore parenthesis as indexing?
+"dic.setdefault(key, []).append(value)",Python dict how to create key or append an element to key?
+"a[np.argmin(a[:, (1)])]",Finding the minimum value in a numpy array and the corresponding values for the rest of that array's row
+a.update(b),"Python ""extend"" for a dictionary"
+"[{k: v for k, v in d.items() if k != 'mykey1'} for d in mylist]",Removing key values pairs from a list of dictionaries
+"[dict((k, v) for k, v in d.items() if k != 'mykey1') for d in mylist]",Removing key values pairs from a list of dictionaries
+"numpy.random.random((3, 3))",Simple way to create matrix of random numbers
+df['C'] = df['A'] + df['B'],Make new column in Panda dataframe by adding values from other columns
+"[value for key, value in list(programs.items()) if 'new york' in key.lower()]",Find dictionary items whose key matches a substring
+sys.path.append('/path/to/main_folder'),"Import module in another directory from a ""parallel"" sub-directory"
+"re.findall('\\d+(?=[^[]+$)', s)",Regex for getting all digits in a string after a character
